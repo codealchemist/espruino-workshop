@@ -47,7 +47,7 @@ In this step we're going to write the *Espruino* firmware into the *NodeMCU* mic
 
 Download [FlasherJS](https://github.com/thingsSDK/flasher.js).
 
-![](https://cldup.com/kML7xFTjX4-3000x3000.png)
+![](https://cldup.com/POJ4rlJVNA-3000x3000.png)
 
 Using the frist dropdown select the correct device where your NodeMCU is located.
 
