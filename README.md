@@ -19,13 +19,13 @@ Open *Espruino Web IDE* and click on the connect button:
 
 It will display a list of devices.
 
-TODO: ADD DEVICES LIST SCREENSHOT.
-
 Take a look at the list and close it.
 
 Connect your *NodeMCU* to your computer using the USB cable.
 
 Open the devices list once again and check if new devices are shown.
+
+![](https://cldup.com/fZ1uVOsICn-2000x2000.png)
 
 If new devices are shown then you already can communicate with your NodeMCU, yay!
 
@@ -33,13 +33,13 @@ In case no new devices where shown, follow the next step to install the needed d
 
 ## Install drivers
 
-In order for your computer to be able to talk to the NodeMCU microcontroller
-they will need to speak the same language, so to speak.
+If your computer can't already communicate with the NodeMCU it will need
+drivers to be able to do it.
 
 Download drivers from:
 http://www.ftdichip.com/Drivers/VCP.htm
 
-Note that after installing the drivers you might need to reboot your computer.
+After installing you might need to reboot your computer.
 
 ## Flashing Espruino
 
@@ -50,6 +50,35 @@ Download [FlasherJS](https://github.com/thingsSDK/flasher.js).
 ![](https://cldup.com/kML7xFTjX4-3000x3000.png)
 
 Using the frist dropdown select the correct device where your NodeMCU is located.
+
+## Connecting to Espruino
+
+Open **Espruino Web IDE** and list your available devices.
+
+Select the TTY port where your NodeMCU is located.
+
+If everything worked OK the connection button will change to indicate
+you're already connected to the NodeMCU and you'll see a cursor on the
+code editor on the left pane.
+
+![](https://cldup.com/x33CbeBWPB-3000x3000.png)
+
+## Check if it works
+
+If you can write on the console and you get output, then everything is working!
+
+Try something like:
+
+![](https://cldup.com/emaS8d29GT-2000x2000.png)
+
+## Keep hacking!
+
+Now you're ready to try running the examples on this repo.
+
+From there I recommend you to visit the [Espruino modules list](https://www.espruino.com/Modules)
+to get some ideas to create new things.
+
+Enjoy!
 
 Normally the latest version of Espruino available to FlasherJS will be selected
 by default on the second dropdown.
