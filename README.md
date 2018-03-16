@@ -53,6 +53,9 @@ Using the frist dropdown select the correct device where your NodeMCU is located
 
 Click the _Flash!_ button to starting flashing!
 
+Normally the latest version of Espruino available to FlasherJS will be selected
+by default on the second dropdown.
+
 ## Connecting to Espruino
 
 Open **Espruino Web IDE** and list your available devices.
@@ -81,7 +84,3 @@ From there I recommend you to visit the [Espruino modules list](https://www.espr
 to get some ideas to create new things.
 
 Enjoy!
-
-Normally the latest version of Espruino available to FlasherJS will be selected
-by default on the second dropdown.
-
