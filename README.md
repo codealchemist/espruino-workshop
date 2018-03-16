@@ -51,6 +51,8 @@ Download [FlasherJS](https://github.com/thingsSDK/flasher.js).
 
 Using the frist dropdown select the correct device where your NodeMCU is located.
 
+Click the _Flash!_ button to starting flashing!
+
 ## Connecting to Espruino
 
 Open **Espruino Web IDE** and list your available devices.
@@ -82,6 +84,4 @@ Enjoy!
 
 Normally the latest version of Espruino available to FlasherJS will be selected
 by default on the second dropdown.
-
-Click the _Flash!_ button to starting flashing!
 
