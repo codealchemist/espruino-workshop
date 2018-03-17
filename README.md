@@ -42,7 +42,15 @@ drivers to be able to do it.
 Download drivers from:
 http://www.ftdichip.com/Drivers/VCP.htm
 
-After installing you might need to reboot your computer.
+For OSX we made it work with this drivers:
+
+https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
+
+On OSX you can also try installing with caskroom:
+
+`brew cask install silicon-labs-vcp-driver`
+
+After installing you might need to reboot your computer, but you can try first ;)
 
 ## Flashing Espruino
 
