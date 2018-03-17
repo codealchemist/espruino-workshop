@@ -1,6 +1,14 @@
+const wifi = require('Wifi');
+const http = require('http');
+
 const led = NodeMCU.D3;
 const button = NodeMCU.D4;
 const url = 'http://instabuddy.herokuapp.com/channel/roboticajs/remote-random';
+let ip;
+
+// Wifi login:
+const ssid = 'SSID';
+const pass = 'PASSWORD';
 
 // Ensure it's off by default.
 led.write(false);
@@ -9,6 +17,7 @@ led.write(false);
 pinMode(button, 'input_pullup');
 setWatch(function() {
   console.log('Button pressed!');
+  led.write(true);
   sendRequest();
 }, button, { repeat: true, edge: 'rising', debounce: 50 });
 
