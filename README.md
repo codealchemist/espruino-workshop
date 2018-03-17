@@ -4,6 +4,9 @@ Espruino workshop guide and code samples.
 ## Welcome!
 In this workshop you'll learn how to start playing with *NodeMCU v1.0* and *Espruino*.
 
+Take a look at the [presentation slides](https://docs.google.com/presentation/d/1fHHawzTsXKqORFoKsoPeVuUxjrIkTUp45e9mtztU_-Q/edit?usp=sharing)
+for a general reference about **NodeMCU** and **Espruino**.
+
 ## Install Espruino Web IDE
 
 The easiest way to write programs into your *NodeMCU* with Espruino is using *Espruino Web IDE*.
