@@ -2,21 +2,21 @@
 Espruino workshop guide and code samples.
 
 ## Welcome!
-In this workshop you'll learn how to start playing with *NodeMCU v1.0* and *Espruino*.
+In this workshop you'll learn how to start playing with **NodeMCU v1.0** and **Espruino**.
 
 Take a look at the [presentation slides](https://docs.google.com/presentation/d/1fHHawzTsXKqORFoKsoPeVuUxjrIkTUp45e9mtztU_-Q/edit?usp=sharing)
 for a general reference about **NodeMCU** and **Espruino**.
 
 ## Install Espruino Web IDE
 
-The easiest way to write programs into your *NodeMCU* with Espruino is using *Espruino Web IDE*.
+The easiest way to write programs into your **NodeMCU** with Espruino is using **Espruino Web IDE**.
 You can download it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/espruino-web-ide/bleoifhkdalbjfbobjackfdifdneehpo).
 
 ![](https://cldup.com/2-UW4Wvky--3000x3000.png)
 
 ## Check device connection
 
-Open *Espruino Web IDE* and click on the connect button:
+Open **Espruino Web IDE** and click on the connect button:
 
 ![](https://cldup.com/U6vIhXT0ha-2000x2000.png)
 
@@ -24,7 +24,7 @@ It will display a list of devices.
 
 Take a look at the list and close it.
 
-Connect your *NodeMCU* to your computer using the USB cable.
+Connect your **NodeMCU** to your computer using the USB cable.
 
 Open the devices list once again and check if new devices are shown.
 
@@ -46,7 +46,7 @@ After installing you might need to reboot your computer.
 
 ## Flashing Espruino
 
-In this step we're going to write the *Espruino* firmware into the *NodeMCU* microcontroller.
+In this step we're going to write the **Espruino** firmware into the **NodeMCU** microcontroller.
 
 Download [FlasherJS](https://github.com/thingsSDK/flasher.js).
 
