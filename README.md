@@ -46,7 +46,7 @@ For OSX we made it work with this drivers:
 
 https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip
 
-On OSX you can also try installing with caskroom:
+On OSX you can also try installing with cask:
 
 `brew cask install silicon-labs-vcp-driver`
 
